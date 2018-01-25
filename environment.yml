@@ -1,0 +1,24 @@
+name: 2018_spring_vanderbilt_ml_bootcamp
+
+channels:
+  - defaults
+  - pytorch
+
+dependencies:
+  - python>=3.6
+  - ipython
+  - anaconda
+  - astropy
+  - h5py
+  - numpy
+  - pandas>=0.22.0
+  - scipy
+  - seaborn>=0.8.1
+  - pytorch
+  - pymc3
+  - tensorflow
+  - theano
+  - pip
+  - pip:
+    - GitPython
+    - progressbar2
