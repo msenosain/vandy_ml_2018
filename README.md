@@ -1,5 +1,5 @@
-2018_Spring_Vanderbilt_ML_Bootcamp
-==============================
+2018 - Spring Vanderbilt ML Group
+==================================
 
 REpository for learning basic ML concepts, and more advance methods such as Deep Learning, etc.
 
