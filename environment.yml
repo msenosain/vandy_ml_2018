@@ -14,10 +14,10 @@ dependencies:
   - pandas>=0.22.0
   - scipy
   - seaborn>=0.8.1
-  - pytorch
-  - pymc3
-  - tensorflow
-  - theano
+  # - pytorch
+  # - pymc3
+  # - tensorflow
+  # - theano
   - pip
   - pip:
     - GitPython
