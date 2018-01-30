@@ -56,7 +56,7 @@ $:  make show-help
 To make it easier to activate the necessary environment, one can check out [*conda-auto-env*](https://github.com/chdoig/conda-auto-env), which activates the necessary environment automatically.
 
 Usage
------- 
+------
 
 
 Project Organization
