@@ -12,7 +12,7 @@ PROJECT_NAME = 2018_Spring_Vanderbilt_ML_Bootcamp
 PYTHON_INTERPRETER = python3
 ENVIRONMENT_FILE = environment.yml
 ENVIRONMENT_NAME = 2018_spring_vanderbilt_ml_bootcamp
-VandyAstroML_git_url = 'https://github.com/VandyAstroML/vandy_ml_2018'
+VandyAstroML_git_url = 'https://github.com/VandyAstroML/vandy_ml_2018.git'
 
 ifeq (,$(shell which conda))
 HAS_CONDA=False
