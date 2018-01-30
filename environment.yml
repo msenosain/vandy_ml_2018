@@ -14,6 +14,7 @@ dependencies:
   - pandas>=0.22.0
   - scipy
   - seaborn>=0.8.1
+  - scikit-learn>=0.19.1
   # - pytorch
   # - pymc3
   # - tensorflow
