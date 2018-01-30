@@ -12,6 +12,7 @@ PROJECT_NAME = 2018_Spring_Vanderbilt_ML_Bootcamp
 PYTHON_INTERPRETER = python3
 ENVIRONMENT_FILE = environment.yml
 ENVIRONMENT_NAME = 2018_spring_vanderbilt_ml_bootcamp
+VandyAstroML_git_url = 'https://github.com/VandyAstroML/vandy_ml_2018'
 
 ifeq (,$(shell which conda))
 HAS_CONDA=False
@@ -56,6 +57,16 @@ ifeq (True,$(HAS_CONDA))
 		@echo ">>> Detected conda, removing conda environment"
 		conda env remove -n $(ENVIRONMENT_NAME)
 endif
+
+## Git pull from MAIN VandyAstroML repository
+vandy_pull:
+	git pull upstream master
+
+## Add MAIN VandyAstroML repository as upstream
+vandy_gitadd:
+	git remote add upstream $(VandyAstroML_git_url)
+	git remote -v
+	
 
 #################################################################################
 # PROJECT RULES                                                                 #
